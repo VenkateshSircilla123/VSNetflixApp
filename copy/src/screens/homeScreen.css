@@ -1,0 +1,20 @@
+.trailer{
+    
+}
+#j{
+    color: #fff;
+    outline: none;
+    border-radius: 0.2vw;
+    font-weight: 700;
+    border: none;
+    padding: 1rem 1rem 1rem 2rem;
+    font-size: 15px;
+    margin: 20px 0px 15px 15px;
+    cursor: pointer;
+    background-color: rgba(51,51,51,0.5);
+}
+#j:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.2s;
+}

@@ -1,0 +1,157 @@
+body{
+    background-color: #262222;
+}
+.login-screen{
+    position: relative;
+    height: 80vh;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/eb90437e-a876-47c3-a138-ca27772a4d2a/IN-en-20230306-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-size: cover;
+
+}
+.loginScreen-logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+    z-index: 9;
+}
+.loginScreen-gradient{
+    width: 100%;
+    z-index: 1;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgb(0,0,0,0.8) 0,
+        rgb(0,0,0,0) 60%,
+        rgb(0,0,0,0.8) 100%
+    );
+}
+.loginScreen-button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    z-index: 9;
+}
+.loginScreen-body{
+    position: absolute;
+    top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+.loginScreen-input > form > input{
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+
+}
+.login-screen-input{
+    margin: 10px;
+}
+.loginScreen-getStarted{
+    padding: 16px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.enjoy-section{
+    width: 100%;
+    display: flex;
+    height: 650px;
+    background-color: black;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.enjoy-section .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.enjoy-section .text h1{
+    font-weight: 900;
+}
+.tv{
+    position: relative;
+    z-index: 0;
+}
+.tv-video{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.tv-img{
+    position: absolute;
+    justify-content: center;
+
+}
+.download-section{
+    display: flex;
+    background-color: black;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.mobile{
+    position: relative;
+}
+.download-bar{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 20px;
+    top: 360px;
+    left: 123px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 0px;
+    background-color: black;
+    height: 75px;
+}
+.st{
+    border-radius: 20px;
+}
+.download-gif{
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.download-bar .middle{
+    display: grid;
+}
+.download-section .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kids-section{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.kids-section .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
